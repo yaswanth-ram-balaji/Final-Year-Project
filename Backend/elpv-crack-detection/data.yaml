@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['defect100', 'defect30', 'defect60', 'normal']
+
+roboflow:
+  workspace: insulator-detection-qneio
+  project: elpv-crack-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/insulator-detection-qneio/elpv-crack-detection/dataset/1

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Solar Panel</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="/static/img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="/static/lib/flaticon/font/flaticon.css" rel="stylesheet">
+        <link href="/static/lib/animate/animate.min.css" rel="stylesheet">
+        <link href="/static/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="/static/css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Nav Bar Start -->
+        <div class="nav-bar">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                    <a href="#" class="navbar-brand">MENU</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto">
+                            <a href="{% url 'home' %}" class="nav-item nav-link ">Home</a>
+                            <a href="{% url 'about' %}" class="nav-item nav-link active">About</a>
+                            <a href="{% url 'upload' %}" class="nav-item nav-link">Upload</a>
+                            <a href="{% url 'index' %}" class="nav-item nav-link">Logout</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+        
+        
+        <!-- Page Header Start -->
+        <div class="page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>About Us</h2>
+                    </div>
+                    <div class="col-12">
+                        <a href="{% url 'home' %}">Home</a>
+                        <a href="{% url 'about' %}">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Header End -->
+        
+
+        <!-- About Start -->
+        <div class="about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img">
+                            <img src="/static/img/doll-stoping-sun-with-solar-panel_1048-2405.avif" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="section-header text-left">
+                            <p>About Us</p>
+                            <h2>Defect Classification in Solar Panels</h2>
+                        </div>
+                        <div class="about-content">
+                            <p>
+                                The objective of this project is to design and implement an automated system for detecting and classifying defects in solar panels using Electroluminescence (EL) imaging combined with advanced deep learning algorithm. The project aims to leverage the capabilities of YOLOv9 object detection model to accurately identify common faults such as microcracks, broken finger lines, and inactive regions in solar cells. By automating the inspection process, the system seeks to overcome the limitations of manual analysis, which is often time-consuming, inconsistent, and reliant on expert knowledge
+                            </p>
+                            <ul>
+                                <li><i class="far fa-check-circle"></i>YOLO-V9</li>
+                              
+                            </ul>
+                            <a class="btn btn-custom" href="">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+        
+        
+        
+        
+        <!-- Back to top button -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        <!-- Pre Loader -->
+        <!-- <div id="loader" class="show">
+            <div class="loader"></div>
+        </div> -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
